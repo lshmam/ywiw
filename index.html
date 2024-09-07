@@ -3,70 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>You Win I Win - Digital Marketing Services the best in the business</title>
+    <title>You Win I Win - Digital Marketing Services</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">
-                <h1>You Win I Win</h1>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>You Win I Win</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section id="hero">
-        <div class="hero-content">
-            <h2>Grow Your Business with You Win I Win</h2>
-            <p>Expert Digital Marketing Services to boost your business's online presence.</p>
-            <a href="#services" class="cta-button">Explore Our Services</a>
+        <div class="container">
+            <h2>Helping Local Businesses Grow through Digital Marketing</h2>
+            <p>We create professional websites, optimize SEO, and drive conversions to boost your online presence.</p>
+            <a href="#contact" class="btn">Get Started</a>
         </div>
     </section>
 
-    <section id="services">
+    <section id="services" class="container">
         <h2>Our Services</h2>
-        <div class="services-container">
-            <div class="service">
+        <div class="services-list">
+            <div class="service-item">
+                <h3>Web Design</h3>
+                <p>Beautiful and functional websites that convert visitors into customers.</p>
+            </div>
+            <div class="service-item">
                 <h3>SEO Optimization</h3>
-                <p>Improve your website’s ranking on search engines with our expert SEO services.</p>
+                <p>Boost your search engine rankings to drive organic traffic to your site.</p>
             </div>
-            <div class="service">
-                <h3>Conversion Rate Optimization</h3>
-                <p>Enhance your website’s conversion rates and turn visitors into customers.</p>
-            </div>
-            <div class="service">
-                <h3>Web Design & Development</h3>
-                <p>Create stunning, responsive websites that drive engagement and sales.</p>
+            <div class="service-item">
+                <h3>Hosting & Maintenance</h3>
+                <p>Reliable, scalable website hosting with ongoing support and updates.</p>
             </div>
         </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="container">
         <h2>About Us</h2>
-        <p>You Win I Win is dedicated to helping local businesses grow through effective digital marketing strategies. Our team of experts works closely with clients to tailor solutions that meet their unique needs.</p>
+        <p>At You Win I Win, we’re committed to helping local businesses grow through effective digital marketing strategies. Our team of experts will create custom solutions tailored to your business needs, ensuring long-term success.</p>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="container">
         <h2>Contact Us</h2>
-        <form action="#" method="post">
-            <label for="name">Name:</label>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name</label>
             <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
+            <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
+            <label for="message">Message</label>
             <textarea id="message" name="message" required></textarea>
             <button type="submit">Send Message</button>
         </form>
     </section>
 
     <footer>
-        <p>&copy; 2024 You Win I Win - Digital Marketing Services</p>
+        <div class="container">
+            <p>&copy; 2024 You Win I Win - Digital Marketing Services. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
-
