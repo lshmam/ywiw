@@ -11,7 +11,7 @@ export default function Hero() {
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Transforming Ideas into Digital Reality</h1>
           <p className="text-xl mb-8">We craft cutting-edge web solutions that drive your business forward.</p>
           <Button asChild size="lg">
-            <Link href="#contact">Get Started</Link>
+            <Link href="#contact">Get Ended</Link>
           </Button>
         </div>
       </div>
