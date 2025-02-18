@@ -73,27 +73,7 @@ export default function LandingPage() {
             </div>
           </div>
         </section>
-        <section id="portfolio" className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-12">Our Work</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[1, 2, 3, 4, 5, 6].map((item) => (
-                <div key={item} className="relative group overflow-hidden rounded-lg">
-                  <Image
-                    src={`/placeholder.svg?height=300&width=400`}
-                    alt={`Portfolio item ${item}`}
-                    width={400}
-                    height={300}
-                    className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <Button variant="secondary">View Project</Button>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+    
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-12">
